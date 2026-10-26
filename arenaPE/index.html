@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Arena PE: tecnologia para criar, divulgar e gerenciar eventos esportivos." />
+  <title>Arena PE — Seu evento esportivo em movimento</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="site-header" id="topo">
+    <a class="brand" href="#topo" aria-label="Arena PE início">
+      <span class="brand-mark"><span></span><i></i></span>
+      <span>Arena <b>PE</b></span>
+    </a>
+    <nav id="menu-principal" class="nav" aria-label="Navegação principal">
+      <a href="#eventos">Eventos</a><a href="#solucoes">Soluções</a><a href="#como-funciona">Como funciona</a><a href="#sobre">Sobre a Arena</a>
+    </nav>
+    <a class="button button-small button-outline" href="https://wa.me/5581996271475" target="_blank">Fale com a gente <span>↗</span></a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-principal"><span></span><span></span></button>
+  </header>
+
+  <main>
+    <section class="hero section-wrap">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> tecnologia que coloca o esporte em movimento</div>
+        <h1>Seu evento.<br /><em>Seu ritmo.</em><br />Sua arena.</h1>
+        <p class="hero-text">A plataforma pernambucana para criar, divulgar e gerenciar eventos esportivos que conectam pessoas e fazem acontecer.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#eventos">Ver eventos <span>↗</span></a><a class="text-link" href="#contato">Organize seu evento <span>↓</span></a></div>
+        <div class="hero-proof"><div class="avatars"><span>AT</span><span>JM</span><span>RS</span><b>+</b></div><span>Feito para quem vive o esporte</span></div>
+      </div>
+      <div class="hero-visual reveal reveal-delay">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="hero-card card-main"><div class="card-top"><span class="mini-logo"><i></i></span><span>ARENA PE <b>LIVE</b></span><span class="card-dots">•••</span></div><div class="runner-art"><div class="track-line line-one"></div><div class="track-line line-two"></div><div class="runner"><span class="head"></span><span class="body"></span><span class="arm"></span><span class="leg leg-a"></span><span class="leg leg-b"></span></div><div class="city-shape"></div></div><div class="card-bottom"><span>RECIFE · PE</span><strong>07:24:18</strong></div></div>
+        <a class="float-card event-card" href="#eventos"><span class="event-icon">⌁</span><div><small>agenda esportiva</small><strong>Próximos eventos</strong><small>Confira a programação</small></div><span class="arrow">↗</span></a>
+        
+        <div class="floating-tag">#VEMPROJOGO</div>
+      </div>
+    </section>
+
+    <section class="ticker"><div><span>DIVULGAÇÃO</span><i>✳</i><span>GESTÃO</span><i>✳</i><span>INSCRIÇÕES</span><i>✳</i><span>EXPERIÊNCIA</span><i>✳</i><span>DIVULGAÇÃO</span><i>✳</i><span>GESTÃO</span></div></section>
+
+    <section class="events-section section-wrap" id="eventos" aria-labelledby="eventos-titulo">
+      <div class="section-label">agenda <span>•</span> vem pra arena</div>
+      <div class="events-heading"><div><h2 id="eventos-titulo">Próximos <em>eventos.</em></h2><p>Encontre sua próxima experiência esportiva.</p></div><a class="text-link" href="https://wa.me/5581996271475" target="_blank" rel="noopener noreferrer">Divulgue seu evento <span>↗</span></a></div>
+      <div class="events-filters" role="group" aria-label="Filtrar eventos"><button class="event-filter active" data-filter="proximos" aria-pressed="true">Próximos</button><button class="event-filter" data-filter="realizados" aria-pressed="false">Realizados</button><button class="event-filter" data-filter="todos" aria-pressed="false">Todos</button></div>
+      <div id="events-grid" class="events-grid" aria-live="polite"></div>
+      <p id="events-empty" class="events-empty" hidden>Nenhum evento publicado nesta categoria ainda. Acompanhe nossas novidades!</p>
+    </section>
+
+    <section class="section-wrap intro-section" id="sobre"><div class="section-label">01 <span>•</span> a arena é sua</div><div class="intro-grid"><h2>Onde a energia<br />do esporte encontra<br /><em>a força da conexão.</em></h2><div class="intro-content"><p>Da primeira ideia à linha de chegada, a Arena PE simplifica cada etapa do seu evento. Uma experiência digital pensada para atletas, organizadores e marcas que acreditam no poder do movimento.</p><a class="text-link" href="#como-funciona">Descubra como funciona <span>↗</span></a></div></div></section>
+
+    <section class="solutions section-wrap" id="solucoes"><div class="section-label">02 <span>•</span> tudo em um só lugar</div><div class="section-heading"><h2>Feito para fazer<br /><em>acontecer.</em></h2><p>Mais que uma plataforma. O seu parceiro nos bastidores de cada conquista.</p></div><div class="feature-grid"><article class="feature feature-dark"><div class="feature-number">01</div><div class="feature-icon">↗</div><h3>Divulgue<br />com propósito</h3><p>Leve seu evento até quem está pronto para viver a experiência.</p><a href="#contato">Saiba mais <span>↗</span></a><div class="feature-lines"></div></article><article class="feature feature-green"><div class="feature-number">02</div><div class="feature-icon">◎</div><h3>Gerencie<br />sem complicar</h3><p>Organize dados, equipes e etapas em um fluxo simples e inteligente.</p><a href="#contato">Saiba mais <span>↗</span></a><div class="feature-lines"></div></article><article class="feature feature-coral"><div class="feature-number">03</div><div class="feature-icon">✦</div><h3>Conecte<br />quem participa</h3><p>Uma jornada fluida para atletas, marcas e comunidades esportivas.</p><a href="#contato">Saiba mais <span>↗</span></a><div class="feature-lines"></div></article></div></section>
+
+    <section class="journey section-wrap" id="como-funciona"><div class="journey-visual"><div class="big-circle"><span class="circle-word">ARENA PE · ARENA PE · </span><div class="circle-center"><span>03</span><small>passos para<br /><b>começar</b></small></div></div><div class="journey-dot dot-a"></div><div class="journey-dot dot-b"></div></div><div class="journey-copy"><div class="section-label">03 <span>•</span> simples assim</div><h2>Do primeiro clique<br />ao <em>pódio.</em></h2><div class="steps"><div class="step"><b>01</b><div><h3>Crie seu evento</h3><p>Monte sua página com as informações que importam.</p></div></div><div class="step"><b>02</b><div><h3>Conecte sua comunidade</h3><p>Divulgue e atraia os atletas certos para a sua arena.</p></div></div><div class="step"><b>03</b><div><h3>Viva o movimento</h3><p>Gerencie tudo e acompanhe cada resultado.</p></div></div></div></div></section>
+
+    <section class="cta section-wrap" id="contato"><div class="cta-glow"></div><div class="section-label">04 <span>•</span> bora começar?</div><h2>Seu próximo evento<br /><em>começa aqui.</em></h2><p>Conte para a gente o que você quer colocar em movimento.</p><a class="button button-light" href="https://wa.me/5581996271475" target="_blank">Fale com a Arena PE <span>↗</span></a><div class="cta-mark">A</div></section>
+  </main>
+  <footer class="footer section-wrap"><a class="brand" href="#topo"><span class="brand-mark"><span></span><i></i></span><span>Arena <b>PE</b></span></a><span>Seu evento esportivo em movimento.</span><div class="footer-links">
+    <a href="https://www.instagram.com/arenapegestaodeeventos?igsh=MWRwOWs0NjBwejh5YQ==">Instagram</a>
+    <a href="mailto:contatoarenapeeventos@gmail.com">Contato</a><a href="#topo">↑ voltar ao topo</a></div></footer>
+  <script src="events-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
